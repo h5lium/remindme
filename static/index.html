@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>未来Email</title>
+		
+		<link rel="stylesheet" href="/css/pure-min.css">
+		<link rel="stylesheet" href="/css/jquery-ui.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+		<div id="container">
+			<div class="pure-g">
+				<form id="form" class="pure-form">
+					<legend>发个Email给未来</legend>
+					
+					<fieldset>
+						<div class="control-group">
+							<label for="email" class="control-label">Email</label>
+							<div class="controls">
+								<input id="email" type="email" placeholder="发给谁..." autofocus>
+							</div>
+						</div>
+						
+						<div class="control-group">
+							<label for="subject" class="control-label">标题</label>
+							<div class="controls">
+								<input id="subject" type="text" placeholder="震撼的标题...">
+							</div>
+						</div>
+						
+						<div class="control-group">
+							<label for="content" class="control-label">内容</label>
+							<div class="controls">
+								<textarea id="content" placeholder="要说的话..."></textarea>
+							</div>
+						</div>
+						
+						<div class="control-group">
+							<label for="date" class="control-label">日期</label>
+							<div id="date" class="controls">
+								<fieldset>
+									<div id="datepicker"></div>
+								</fieldset>
+								<fieldset>
+									<div id="showtime"></div>
+									<div id="slider"></div>
+								</fieldset>
+							</div>
+						</div>
+					</fieldset>
+					
+					<button id="send" type="submit" class="pure-button pure-button-primary">发送</button>
+				</form>
+			</div>
+			
+			<div class="pure-g">
+				<footer id="footer">
+					<div>
+						<small>
+							<p>Copyright(c) 2013 h5lium</p>
+							<p>
+								<span>Powered By </span>
+								<span>
+									<a target="_blank" href="http://developer.baidu.com/cloud/rt">
+										<abbr title="Baidu App Engine">BAE</abbr>
+									</a>
+								</span>
+								<span> and </span>
+								<span>
+									<a target="_blank" href="http://expressjs.com">
+										Express
+									</a>
+								</span>
+							</p>
+						</small>
+					</div>
+				</footer>
+			</div>
+		</div>
+		
+		<script src="/js/jquery-1.9.1.min.js"></script>
+		<script src="/js/jquery-ui-1.10.2.min.js"></script>
+		<script src="/js/jquery.ui.datepicker-zh-TW.js"></script>
+		<script src="/js/script.js"></script>
+	</body>
+</html>

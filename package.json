@@ -1,0 +1,22 @@
+{
+	"name": "remindme",
+	"description": "Sending a future email from now, for reminding or somewhat else. With NodeJS.",
+	"version": "1.0.0",
+	"author": {
+		"name": "h5lium",
+		"email": "h5lium@163.com"
+	},
+	"engines": {
+		"node >= 0.8.0"
+	},
+	"main": "app.js",
+	"dependencies": {
+		"express": "3.2.5",
+		"nodemailer": "0.4.4",
+		"assert": "0.4.9",
+		"mongodb": "1.3.5"
+	},
+	"devDependencies": {
+		"request": "2.21.0"
+	}
+}
